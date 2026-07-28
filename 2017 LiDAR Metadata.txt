@@ -1,0 +1,179 @@
+2016 LiDAR Acquisition and Associated Products for Phase Four Counties in North Carolina
+Tags  Surry County, Davie County, Hydrology, Stokes County, LAS Point Cloud, Elevation Data, Lincoln County, Forsyth County, Lidar, Model, Alexander County, Yadkin County, Gaston County, Wilkes County, Rowan County, Catawba County, Union County, Cabarrus County, Anson County, Alleghany County, Davidson County, Remote Sensing, Stanly County, Cleveland County, Geiger, Mecklenburg County, Iredell County, North Carolina
+
+Summary
+The purpose of this project was to update existing LiDAR data, originally collected between 2000 and 2005, with more accurate and clearly defined LiDAR data utilizing the latest in sensor technology. Although created for the North Carolina Floodplain Mapping Program for specific use in the engineering aspects of floodplain delineation, the data were also developed to address the elevation data requirements of the broader geospatial community. The North Carolina Floodplain Mapping Program was established in response to the extensive damage caused by Hurrican Floyd in 1999.
+Description
+The data set was collected specific to the 2016 Phase Four project area consisting of 20 North Carolina counties. LiDAR data for the project and the validation site was collected by a single aerial vendor on ESP team between February 27, 2016 and April 17, 2016 and between December 9, 2016 and February 21 of 2017 using Geiger-mode Avalanche Photodiode (GmAPD) sensors. The aerial vendor on the ESP team was Harris Corporation (Harris).Two GmAPD (Geiger-mode) sensors (serial numbers 002 and 003) were used for the data collection of LiDAR data at a 0.35 meter nominal post spacing (NPS). The following counties or portions of counties were collected in the February through April, 2016 mobilization: Alleghany, Stokes, Surry, Cleveland, Gaston, Mecklenburg, Cabarrus, Stanly, Union, and Anson. The following counties or portions of counties we collected in the December, 2016 through February, 2017 mobilization: Cleveland, Gaston, Mecklenburg, Cabarrus, Stanly, Wilkes, Yadkin, Forsyth, Alexander, Catawba, Iredell, Davie, Rowan, and Davidson. All data was collected during leaf-off conditions. Ground survey support for the project included the establishment of GPS base stations and the collection of control points used for calibration. All data was delivered in the North Carolina State Plane Coordinate System, with a horizontal datum of NAD83 (2011), vertical datum of NAVD88 (Geoid 12B), in US Survey Feet. Data was delivered tiled to a 2,500 foot by 2,500 foot tiling scheme unless otherwise specified in this product description. All LiDAR was delivered in LASer (LAS) version 1.4 standard format. Products for this project derived from the source LiDAR included: intensity images in GeoTIFF format, hydro-flattening breaklines in ESRI File Geodatabase format, Digital Elevation Models (DEMs) in TIF format, ESRI Terrain Datasets (by county) in ESRI File Geodatabase format, product and project-level metadata, and project reports to include the Report of Survey, Post-Acquisition Report, and Project Report. All LiDAR and derivative products for this project met the specifications stipulated in Delivery Order 22, the NC LiDAR Standard, and the USGS minimum standards for QL1 LiDAR data. This project was a joint effort between NC Emergency Management, NC Geodetic Survey, and the NCDOT. The following people served as the main representatives for each stakeholder: NC Emergency Management- Hope Morgan (primary contact) and John Dorman; NC Geodetic Survey- Gary Thompson and Watson Ross; NCDOT- Keith Johnston and Marc Swartz, and the United States Geological Survey (USGS.
+Credits
+The ESP Team, consisting of ESP Associates, Surdex Corporation, and Harris Corporation, performed all data collection, ground support, and data processing for this project.
+Use limitations
+None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.
+Extent
+There is no extent for this item.
+
+Scale Range
+There is no scale range for this item.
+
+Topics and Keywords  ►
+Themes or categories of the resource Elevation
+
+Theme keywords Hydrology, LAS Point Cloud, Elevation Data, Lidar, Model, Remote Sensing, Geiger
+
+Place keywords Surry County, Davie County, Stokes County, Lincoln County, Forsyth County, Alexander County, Yadkin County, Gaston County, Wilkes County, Rowan County, Catawba County, Union County, Cabarrus County, Anson County, Alleghany County, Davidson County, Stanly County, Cleveland County, Mecklenburg County, Iredell County, North Carolina
+
+Citation  ►
+Title 2016 LiDAR Acquisition and Associated Products for Phase Four Counties in North Carolina
+Publication date 2017-10-02
+
+FGDC geospatial presentation format Lidar point cloud
+
+Citation Contacts  ►
+Responsible party - originator 
+Organization's name Hope Morgan, NC Emergency Management, GIS Manager - GTM
+
+Resource Details  ►
+Dataset languages English
+
+Status completed
+Spatial representation type vector
+
+Supplemental information 
+NCEM GTM Contract No. 286-000030 ESP CONTRACTOR: ESP Associates SUBCONTRACTORS: Harris Corporation, Surdex Corporation Lidar data were acquired and calibrated by Harris Corporation. All follow-on processing was completed by the prime contractor and Surdex Corporation.
+
+Processing environment MicroStation Connect Version 10; TerraScan Version 17; ESRI ArcGIS 10.4.1, Windows 7 Operating System, ESP Analyst, ESP Utilities
+
+Credits 
+The ESP Team, consisting of ESP Associates, Surdex Corporation, and Harris Corporation, performed all data collection, ground support, and data processing for this project.
+
+Extents  ►
+Extent 
+Description 
+ground condition
+
+Temporal extent 
+Beginning date 2016-02-27
+Ending date 2017-02-21
+
+Extent 
+Geographic extent 
+Bounding rectangle 
+West longitude -81.796371
+East longitude -79.846639
+South latitude 34.819963
+North latitude 36.607426
+
+Resource Points of Contact  ►
+Point of contact - point of contact 
+Individual's name Harold Rempel
+Organization's name ESP Associates
+Contact's position Project Manager
+
+Contact information ►
+Phone 
+Voice 803-835-0851
+Address 
+Type postal
+Delivery point P.O. Box 7030
+City Charlotte
+Administrative area NC
+Postal code 28241
+e-mail address hrempel@espassociates.com
+Point of contact - point of contact 
+Individual's name Jamey Gray
+Organization's name ESP Associates
+Contact's position NC PLS: L-4778
+
+Contact information ►
+Phone 
+Voice 803-835-0851
+Address 
+Type postal
+Delivery point P.O. Box 7030
+City Charlotte
+Administrative area NC
+Postal code 28241
+e-mail address jgray@espassociates.com
+Resource Maintenance  ►
+Resource maintenance 
+Update frequency not planned
+
+Resource Constraints  ►
+Legal constraints 
+Other constraints 
+No restrictions apply to these data.
+
+Constraints 
+Limitations of use 
+None. However, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. Acknowledgement of the U.S. Geological Survey would be appreciated for products derived from these data.
+
+Data Quality  ►
+Scope of quality information ►
+Resource level dataset
+
+Data quality report - Conceptual consistency  ►
+Data quality measure reference
+Measure description 
+ESP Assocites tested the classified LAS files for both vertical and horizontal accuracy. All data covers the project area, tile to tile with no gaps or no data areas exceeding specifications
+
+Data quality report - Completeness omission  ►
+Data quality measure reference
+Measure description 
+These LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Non-Vegetated Vertical Accuracy specifications.
+
+Data quality report - Absolute external positional accuracy  ►
+dimension vertical
+
+Data quality measure reference
+Measure description 
+The project specifications require that only Non-Vegetated Vertical Accuracy (NVA) be computed for raw lidar point cloud files. The required accuracy (ACCz) is: 18.13 cm at a 95% confidence level, derived according to NSSDA, i.e., based on RMSE (z) of 9.25 cm in the “bare earth” and "urban" land cover classes. The NVA was tested with 444 checkpoints located in bare earth and urban (non-vegetated) areas. These check points were not used in the calibration or post processing of the lidar point cloud data. The checkpoints were distributed throughout the project area and were surveyed using GPS techniques. See survey report for additional survey methodologies. Elevations from the unclassified lidar surface were measured for the x,y location of each check point. Elevations interpolated from the lidar surface were then compared to the elevation values of the surveyed control points. AccuracyZ has been tested to meet 19.6 cm or better Non-Vegetated Vertical Accuracy at 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA); assessed and reported using National Digital Elevation Program (NDEP)/ASRPS Guidelines.
+
+Quality evaluation procedure
+Evaluation method 
+Tested 0.142 meters NVA at a 95% confidence level using RMSE(z) x 1.9600 as defined by the National Standards for Spatial Data Accuracy (NSSDA). The NVA of the raw lidar point cloud swath files was calculated against TINs derived from the final calibrated and controlled swath data using 444 independent checkpoints located in Bare Earth and Urban land cover classes.
+
+Quantitative test results 
+Value 0.142
+
+Lineage  ►
+Process step ►
+When the process occurred 2017-01-01
+Description 
+LAS Point Classification: The point classification is performed as described below. The bare earth surface is then manually reviewed and edited using TIN visualization and profiles to ensure correct classification on the Class 2 (Ground) points as well as the other classifications required by NCEM. After the bare-earth surface is finalized, it is then used to generate all hydro-breaklines through heads-up digitization in a 3D environment for all rivers equal to or larger than 100 feet in width and all closed water bodies equal to or greater than 2 acres. Island equal or greater than 1 acre are mapped are included. All ground (Class 2) lidar data inside of the Lake Pond and Double Line Drain hydro flattening breaklines were classified to water (Class 9) using ESP Utilities. A buffer of 1 foot was also used around each hydro-flattened feature to classify ground (Class 2) points within the buffer to breakline proximity (Class 10). All Lake Pond Island and Double Line Drain Island features were reviewed in ESP Analyst and checked to ensure that the ground (Class 2) points were reclassified to the correct classification after the automated classification was completed. Overlap data was not processed as Geiger mode LiDAR is flown at a 55 percent overlap with a Palmer scanner. Road polygons derived from heads-up digitization from aerial imagery and the LiDAR were derived for only state-maintained roads per the latest available road database from the North Carolina Department of Transportation. These polygons were then used to classify all ground points with the road edges to roads (Class 13). All remaining classifications required by NCEM such as buildings (Class 6) and vegetation strata (Classes 3, 4, and 5) were derived using automated filters in Terrascan then checked for gross errors and review to ensure that a 98 percent confidence level in classification was met. All data was manually reviewed and any remaining artifacts in the ground (Class 2) removed using functionality provided by ESP Analyst. ESP Analyst was used as a final check of the bare earth dataset. ESP Utilities was then used to create the deliverable industry-standard LAS files for both the All Point Cloud Data. ESP Utilities was used to verify full LAS header and projection information.
+
+Metadata Details  ►
+Metadata language English
+Metadata character set utf8 - 8 bit UCS Transfer Format
+
+Scope of the data described by the metadata dataset
+
+Last update 2017-10-03 
+
+ArcGIS metadata properties
+Metadata format ArcGIS 1.0
+
+Created in ArcGIS for the item 2018-02-21 11:56:33
+
+Metadata Contacts  ►
+Metadata contact - point of contact 
+Organization's name NC Emergency Management
+
+Contact information ►
+Phone 
+Voice 919-825-2336
+Fax 919-715-0408
+Address 
+Type postal
+Delivery point NCNG Campus- Bowers Building, 4105 Reedy Creek Road
+City Raleigh
+Administrative area NC
+Postal code 27607
+Country US
+e-mail address Hope.Morgan@ncdps.gov
+Thumbnail and Enclosures  ►
+Enclosure 
+Enclosure type 
+File
+Description of enclosure original metadata
+Original metadata document, which was translated yes
+Source metadata format fgdc

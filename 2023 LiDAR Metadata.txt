@@ -1,0 +1,236 @@
+Southern Piedmont Region; Cabarrus, Mecklenburg, Stanly and Union Counties; LiDAR; Classified Point Cloud
+Tags  Model, LAS Point Cloud, Remote Sensing, Elevation Data, Withheld Bit Flag Proof of Performance, Swath Separation Imagery, Lidar, North Carolina, Southern Piedmont, Cabarrus County, Mecklenburg County, Union County, Stanly County
+
+Summary
+To acquire detailed surface elevation data for use in geospatial base mapping development. Classified LAS files are used to show the bare earth surface. The primary purpose of the lidar data was to produce orthoimages.
+Description
+This lidar data are processed Classified LAS 1.2 files, formatted into individual 10000 x 10000 ft tiles.  Geographic Extent: Southern Piedmont Region, Cabarrus, Mecklenburg, Stanly and Union Counties, including portions of adjoining counties, North Carolina, covering approximately 2,900 square miles. Dataset Description: Acquisition, processing and derivative products of lidar data to be collected at a +/- 10 points per square meter, nominal point spacing (NPS) of 0.1 meters. The data was developed based on a horizontal projection/datum of NAD83 (2011), North Carolina State Plane, and vertical datum of NAVD88 (GEOID18), US Survey Feet. Lidar data was obtained as flight line-extent unclassified LAS swaths, as processed Classified LAS 1.2 files, formatted into 10000 x 10000 ft tiles. Ground Conditions: Lidar was collected in December of 2022, and January, February and March of 2023, while no snow was on the ground and rivers were at or below normal levels. Spatial Data Consultants, Inc., established ground control points that were used to calibrate the lidar to known ground locations established throughout the project area. Additional independent checkpoints were used to assess the vertical accuracy of the data.
+
+Credits
+There are no credits for this item.
+
+Use limitations
+There are no use constraints however, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should also be aware that automated classification procedures were used to classify bare earth (ASPRS Class 2) and that water bodies over 1 acre were hydro-flattened but not classified. Users should not use this data for critical applications without a full awareness of its limitations.
+
+Extent
+There is no extent for this item.
+
+Scale Range
+Maximum (zoomed in)  	1:5,000
+Minimum (zoomed out)  	1:5,000,000
+Topics and Keywords  ►
+Themes or categories of the resource Elevation
+
+Theme keywords Model, LAS Point Cloud, Remote Sensing, Elevation Data, Withheld Bit Flag Proof of Performance, Swath Separation Imagery, Lidar
+
+Place keywords North Carolina, Southern Piedmont, Cabarrus County, Mecklenburg County, Union County, Stanly County
+
+Citation  ►
+Title Southern Piedmont Region; Cabarrus, Mecklenburg, Stanly and Union Counties; LiDAR; Classified Point Cloud
+Publication date 2023-04-25
+
+Presentation formats lidar point cloud
+FGDC geospatial presentation format Lidar point cloud
+
+Citation Contacts  ►
+Responsible party - originator 
+Organization's name Spatial Data Consultants, Inc.
+
+Resource Details  ►
+Dataset languages English
+Dataset character set utf8 - 8 bit UCS Transfer Format
+
+Status completed
+Spatial representation type vector
+
+Supplemental information 
+CONTRACTOR: Spatial Data Consultants, Inc-Avioimage Mapping Services, Inc. SUBCONTRACTOR: Midwest Aerial Photography, LLC. Lidar data was acquired by Midwest Aerial Photography, LLC. Initial strip georeferencing was completed by the Subcontractor. All follow-up processing was completed by the Contractor.
+       
+
+Processing environment Optech DASHMap 4.2200; ALS Post Processor 2.70 Build 15; GeoCue Version 6.1.21.4; Windows XP Operating System \\server\directory path\*.las 17 GB
+
+ArcGIS item properties 
+Extents  ►
+Extent 
+Geographic extent 
+Bounding rectangle 
+West longitude -81.087858273
+East longitude -80.029171130
+North latitude 35.548264329
+South latitude 34.786963596
+Extent contains the resource Yes
+
+Extent 
+Description 
+ground condition
+
+Temporal extent 
+Beginning date 2023-01-06
+Ending date 2023-03-01
+
+Temporal extent 
+Date and time 2023-01-05
+
+Temporal extent 
+Date and time 2023-01-06
+
+Temporal extent 
+Date and time 2023-01-07
+
+Temporal extent 
+Date and time 2023-01-09
+
+Temporal extent 
+Date and time 2023-01-10
+
+Temporal extent 
+Date and time 2023-01-11
+
+Temporal extent 
+Date and time 2023-01-14
+
+Temporal extent 
+Date and time 2023-01-15
+
+Temporal extent 
+Date and time 2023-01-16
+
+Temporal extent 
+Date and time 2023-02-13
+
+Temporal extent 
+Date and time 2023-03-01
+
+Resource Maintenance  ►
+Resource maintenance 
+Update frequency as needed
+
+Resource Constraints  ►
+Constraints 
+Limitations of use 
+There are no use constraints however, users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should also be aware that automated classification procedures were used to classify bare earth (ASPRS Class 2) and that water bodies over 1 acre were hydro-flattened but not classified. Users should not use this data for critical applications without a full awareness of its limitations.
+
+
+Legal constraints 
+Access constraints other restrictions
+
+Other constraints 
+No access restrictions apply to this data.
+
+Spatial Data Properties  ►
+Vector ►
+Geometric objects 
+Object type point
+Object count 160,000,000,000
+Data Quality  ►
+Scope of quality information ►
+Resource level dataset
+
+Data quality report - Conceptual consistency  ►
+Data quality measure reference
+Measure description 
+Data covers the entire area specified for this project.
+
+Data quality report - Completeness omission  ►
+Data quality measure reference
+Measure description 
+These LAS data files include all data points collected. No points have been removed or excluded. A visual qualitative assessment was performed to ensure data completeness. No void areas or missing data exist. The raw point cloud is of good quality and data passes Non-Vegetated Vertical Accuracy specifications.
+
+Data quality report - Absolute external positional accuracy  ►
+dimension horizontal
+
+Data quality measure reference
+Measure description 
+This data set was produced to meet ASPRS Positional Accuracy Standards for Digital Geospatial Data (2014) for a 10 (cm) RMSEx / RMSEy Horizontal Accuracy Class which equates to Positional Horizontal Accuracy (RMSEr) = +/- 24.5 cm at a 95% confidence level.
+
+Data quality report - Absolute external positional accuracy  ►
+dimension vertical
+
+Data quality measure reference
+Measure description 
+This data set was produced to meet ASPRS Positional Accuracy Standard for Digital Geospatial Data (2014) for a 10-cm RMSEz Vertical Accuracy Class which equates to a NVA Positional Vertical Accuracy (RMSEr) = +/- 19.6 cm at a 95% confidence level, and VVA Positional Vertical Accuracy (RMSEr) = +/- 30.0 cm at a 95% confidence level.
+
+Lineage  ►
+Process step ►
+Description 
+Boresight is performed at the beginning of the project period where a specific flight pattern is collected for a set of LIDAR flightlines. The objective is to align the output LIDAR data straight out of the point cloud processing software. This involves outputting the angular misalignment values between the IMU (INS subsystem) and the LIDAR sensor’s laser pointing. Using control points the boresight model is able to calculate the misalignment or boresight corrections. These 3 angles are put back into LMS and thus the output is aligned. The more-recent advancement is then using Bayes StripAlign software to remove any further misalignment within the data which can occur from several sources. The final product used (StripAlign point clouds) are thus the best fit datasets and are the source for data delivery.
+
+Process step ►
+When the process occurred 2023-04-25
+Description 
+LAS Point Classification: The point classification is performed as described below. Automated procedures were used to classify the bare earth surface, ASPRS Class 2 (Ground) points. All ground (ASPRS Class 2) lidar data inside water bodies over 1 acre were hydro-flattened but not classified as water (ASPRS Class 9). All overlap data was processed through automated functionality provided by TerraScan to classify the overlapping flight line data to approved classes. The overlap data was classified using standard LAS overlap bit. These classes were created through automated processes only and were not verified for classification accuracy. A cursory visual review of all the data was performed to remove obvious artifacts and misclassifications, however, a detailed visual review was not performed to remove every minor artifact or misclassification. TerraScan was used to create the deliverable industry-standard LAS files.
+
+Process step ►
+When the process occurred 2023-05-02
+Description 
+Supplemental Project Information
+
+Source data ►
+Relationship to the process step used
+
+Source citation ►
+Alternate titles SDC_gnd_ctrl
+
+Process step ►
+When the process occurred 2023-09-20
+Description 
+The nominal point density (NPD) was tested on classified tiled LAS files using geometrically reliable first-return points. Testing yielded a NPD of approximately 14 points per square meter (ppsm). NPD was tested using TerraSolid software tools.
+
+Metadata Details  ►
+Metadata language English
+Metadata character set utf8 - 8 bit UCS Transfer Format
+
+Metadata identifier DF3478B0-1FF9-462D-A3A6-1FA6EAE9D20C
+
+Scope of the data described by the metadata dataset
+
+Last update ⇔ 2023-09-27 
+
+ArcGIS metadata properties
+Metadata format ArcGIS 1.0
+Standard or profile used to edit metadata ISO19139
+
+Metadata Contacts  ►
+Metadata contact - point of contact 
+Organization's name Spatial Data Consultants, Inc.
+
+Contact information ►
+Phone 
+Voice (336)841-1247
+Address 
+Type both
+Delivery point 1008 Hutton Lane, Suite 109
+City High Point
+Administrative area NC
+Postal code 27262
+Country US
+Metadata Maintenance  ►
+Maintenance 
+Update frequency unknown
+
+Other maintenance requirements 
+Last metadata review date: 2023-09-20
+
+Metadata Constraints  ►
+Constraints 
+Limitations of use 
+None.
+
+Legal constraints 
+Access constraints other restrictions
+
+Other constraints 
+None.
+
+Security constraints 
+Classification unclassified.
+Classification system None.
+
+Additional restrictions 
+None.
+
+Metadata Extensions  ►
+mdExtInfo ►
+extOnRes 
+Online location (URL) None.
+Name None.

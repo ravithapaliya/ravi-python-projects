@@ -1,0 +1,315 @@
+Mecklenburg County, NC bare earth LiDAR masspoints dataset (2007)
+Metadata also available as - [XML]
+
+Metadata:
+Identification_Information
+Data_Quality_Information
+Spatial_Data_Organization_Information
+Spatial_Reference_Information
+Entity_and_Attribute_Information
+Distribution_Information
+Metadata_Reference_Information
+Identification_Information:
+Citation:
+Citation_Information:
+Originator: Kucera International Inc.
+Publication_Date: Unknown
+Title:
+Mecklenburg County, NC bare earth LiDAR masspoints dataset (2007)
+Edition: 1.0
+Geospatial_Data_Presentation_Form: LiDAR LAS 1.0 Binary file format of vector points
+Publication_Information:
+Publication_Place: Charlotte, Mecklenburg County, North Carolina
+Publisher: Mecklenburg County GIS
+Description:
+Abstract:
+This metadata document describes the LAS file containing 'bald earth' classification of LiDAR data masspoints collected by Kucera covering the project area of the County of Mecklenburg, NC.
+Purpose:
+The masspoints file depicts the 'bald earth' within the project area. All points not specifically derived from the terrain are removed (tree canopy, buildings, etc.). As such, the file is useful for a variety of applications, such as aiding in contour generation and the production of orthophotos.
+Supplemental_Information:
+This LiDAR point dataset is stored in a binary file format (LAS 1.0) specific to LiDAR data and includes all headers and attributes needed to create an ASCII or vector point file for use in a GIS. Headers and attributes are described in the 'Entities and Attributes' section in this metadata file. This dataset is partitioned into 5000' x 5000' tiles and the bounding coordinates in this file are for the project area extent, which is Mecklenburg county. The RAW point spacing of the LIDAR data is about 2 points per square meter, or an average spacing of 1.4M between any two neighbor points.
+Time_Period_of_Content:
+Time_Period_Information:
+Single_Date/Time:
+Calendar_Date: 20070224
+Currentness_Reference: Ground condition
+Status:
+Progress: Complete
+Maintenance_and_Update_Frequency: Unknown
+Spatial_Domain:
+Bounding_Coordinates:
+West_Bounding_Coordinate: -81.056139
+East_Bounding_Coordinate: -80.556228
+North_Bounding_Coordinate: 35.520150
+South_Bounding_Coordinate: 34.998219
+Keywords:
+Theme:
+Theme_Keyword_Thesaurus: None
+Theme_Keyword: digital terrain model
+Theme_Keyword: LiDAR
+Theme_Keyword: mapping
+Theme_Keyword: mass points
+Theme_Keyword: topographic
+Place:
+Place_Keyword_Thesaurus: None
+Place_Keyword: City of Charlotte
+Place_Keyword: Cornelius
+Place_Keyword: Davidson
+Place_Keyword: Huntersville
+Place_Keyword: Matthews
+Place_Keyword: Mecklenburg County
+Place_Keyword: Mint Hill
+Place_Keyword: North Carolina
+Place_Keyword: Pineville
+Access_Constraints: Unknown
+Use_Constraints: Unknown
+Point_of_Contact:
+Contact_Information:
+Contact_Person_Primary:
+Contact_Person: Andy Goretti
+Contact_Organization: Mecklenburg County GIS - Mapping
+Contact_Position: Mapping Division Manager
+Contact_Address:
+Address_Type: mailing and physical
+Address: 700 N. Tryon Street
+City: Charlotte
+State_or_Province: NC
+Postal_Code: 28202
+Country: U.S.
+Contact_Voice_Telephone: 704.336.6192
+Contact_Facsimile_Telephone: 704.336.7333
+Contact_Electronic_Mail_Address: Andy.Goretti@MecklenburgCountyNC.Gov
+Hours_of_Service: 0800-1700 M-F EST
+Data_Quality_Information:
+Attribute_Accuracy:
+Attribute_Accuracy_Report:
+Attribute accuracy is tested in the LiDAR processing stage. After classification of the LiDAR data, the 'bald earth' point class is compared to ground control collected within the project area.
+Logical_Consistency_Report:
+Data was filtered using automated procedures followed by a manual review of the completed data set.
+Completeness_Report:
+LiDAR data is collected within the project area, processed and verified against control. The bare earth surface will contain voids where insufficient energy was reflected from the surface to generate a valid return from the terrain.
+Positional_Accuracy:
+Horizontal_Positional_Accuracy:
+Horizontal_Positional_Accuracy_Report:
+Horizontal positional accuracy for LiDAR is dependent upon the quality of the GPS/INS solution, sensor calibration and ground conditions at the time of data capture. The horizontal accuracy test had a RMSE 1'.
+Quantitative_Horizontal_Positional_Accuracy_Assessment:
+Horizontal_Positional_Accuracy_Value: 3.28'
+Horizontal_Positional_Accuracy_Explanation:
+This value is computed by comparing controls to an intensity based image derived from the classified LiDAR data and represents the RMSE of residuals on controls within the project area.
+Vertical_Positional_Accuracy:
+Vertical_Positional_Accuracy_Report:
+Horizontal positional accuracy for LiDAR is dependent upon the quality of the GPS/INS solution, sensor calibration and ground conditions at the time of data capture. The vertical accuracy was tested with a result of a RMSE 0.58'.
+Quantitative_Vertical_Positional_Accuracy_Assessment:
+Vertical_Positional_Accuracy_Value: 0.58'
+Vertical_Positional_Accuracy_Explanation:
+This value is computed by comparing controls to the classified LiDAR ground surface and represents the RMSE of residuals on controls within the project area.
+Lineage:
+Source_Information:
+Source_Citation:
+Citation_Information:
+Originator: Kucera International Inc.
+Publication_Date: Unpublished material
+Title: LiDAR Data
+Edition: 1.0
+Geospatial_Data_Presentation_Form: Vector digital data
+Publication_Information:
+Publication_Place: None
+Publisher: None
+Type_of_Source_Media: disc
+Source_Time_Period_of_Content:
+Time_Period_Information:
+Multiple_Dates/Times:
+Single_Date/Time:
+Calendar_Date: 20070224
+Single_Date/Time:
+Calendar_Date: 20070214
+Single_Date/Time:
+Calendar_Date: 20070212
+Source_Currentness_Reference: Ground condition
+Source_Citation_Abbreviation: LIDAR
+Source_Contribution:
+LiDAR data was recorded for the project area to aid in contour generation.
+Source_Information:
+Source_Citation:
+Citation_Information:
+Originator: Independent Mapping Consultants (IMC)
+Publication_Date: Unpublished material
+Title: Ground control
+Edition: 1.0
+Geospatial_Data_Presentation_Form: Vector digital data
+Publication_Information:
+Publication_Place: None
+Publisher: None
+Type_of_Source_Media: disc
+Source_Time_Period_of_Content:
+Time_Period_Information:
+Single_Date/Time:
+Calendar_Date: 200702
+Source_Currentness_Reference: Ground condition
+Source_Citation_Abbreviation: CONT
+Source_Contribution:
+Targeted ground control is used to create a digital control file and control report as well as QC check of LiDAR accuracy. Predefined points (usually NGS) within the project area are targeted. 30 control points were utilized.
+Process_Step:
+Process_Description:
+At selected locations throughout the site, accurate GPS coordinates and elevations are surveyed and the points are marked with targets.
+Source_Used_Citation_Abbreviation: None
+Process_Date: 200702
+Source_Produced_Citation_Abbreviation: CONT
+Process_Step:
+Process_Description:
+New LiDAR data is captured for the project area using a Leica ALS50 LiDAR instrument in conjunction with a POSAV Applanix GPS/INS system mounted within a Piper Navajo twin prop airplane. Base-station receivers are operated on the ground over known site points during the flyover to provide data necessary to reference the instrument position and orientation measurements to the terrain coordinate system. Altitude of flight was 5500' above mean terrain (AMT).
+Source_Used_Citation_Abbreviation: None
+Process_Date: 200702
+Source_Produced_Citation_Abbreviation: LIDAR
+Process_Step:
+Process_Description:
+The airborne GPS/INS data is processed, in both forward and reverse directions, together with the simultaneously recorded ground-based GPS base station data to determine the LiDAR sensor's angle and orientation in the terrain (project) coordinate datum during the survey.
+Source_Used_Citation_Abbreviation: GPS_RAW
+Process_Date: 2007
+Source_Produced_Citation_Abbreviation: GPS_SOL
+Process_Step:
+Process_Description:
+LiDAR data is processed using the GPS/INS solution. Data is classified to produce a 'bald earth' surface and output to a LAS binary file format.
+Source_Used_Citation_Abbreviation: CONT, GPS_SOL, LIDAR
+Process_Date: 2007
+Source_Produced_Citation_Abbreviation: LAS
+Spatial_Data_Organization_Information:
+Direct_Spatial_Reference_Method: Vector
+Point_and_Vector_Object_Information:
+SDTS_Terms_Description:
+SDTS_Point_and_Vector_Object_Type: Entity point
+Point_and_Vector_Object_Count: []
+Spatial_Reference_Information:
+Horizontal_Coordinate_System_Definition:
+Planar:
+Grid_Coordinate_System:
+Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+State_Plane_Coordinate_System:
+SPCS_Zone_Identifier: 3200 North Carolina
+Lambert_Conformal_Conic:
+Standard_Parallel: 34.333333
+Standard_Parallel: 36.166667
+Longitude_of_Central_Meridian: -79.000000
+Latitude_of_Projection_Origin: 33.750000
+False_Easting: 2000000.0
+False_Northing: 0.000000
+Planar_Coordinate_Information:
+Planar_Coordinate_Encoding_Method: Coordinate pair
+Coordinate_Representation:
+Abscissa_Resolution: .01
+Ordinate_Resolution: .01
+Planar_Distance_Units: U.S. Feet
+Geodetic_Model:
+Horizontal_Datum_Name: North American Datum of 1983
+Ellipsoid_Name: Geodetic Reference System 80
+Semi-major_Axis: 6378137.0
+Denominator_of_Flattening_Ratio: 298.25722210088
+Vertical_Coordinate_System_Definition:
+Altitude_System_Definition:
+Altitude_Datum_Name: North American Vertical Datum of 1988
+Altitude_Resolution: .01
+Altitude_Distance_Units: U.S. Feet
+Altitude_Encoding_Method:
+Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+Detailed_Description:
+Entity_Type:
+Entity_Type_Label: LiDAR masspoints
+Entity_Type_Definition: ground points collected from LiDAR survey
+Entity_Type_Definition_Source: Kucera International Inc.
+Attribute:
+Attribute_Label: CLASS
+Attribute_Definition:
+Data is filtered and classified into categories in which the data falls. Standard is: 1-default 2-ground 3-low veg 4-med. Veg 5-high veg 6-building 7-low point 8-model key point.
+Attribute_Definition_Source: Kucera International Inc.
+Attribute:
+Attribute_Label: ECHO
+Attribute_Definition:
+The ALS50 has the potential for 4 returns per pulse. First, second, third, and last return.
+Attribute_Definition_Source: Kucera International Inc.
+Attribute:
+Attribute_Label: INTENSITY
+Attribute_Definition:
+Each return has an "intensity" value attributed to it, based on the brightness of the return. It is 8 bit, so the brightest return will have an intensity value of 255, the darkest a value of 0.
+Attribute_Definition_Source: Kucera International Inc.
+Attribute:
+Attribute_Label: FLIGHT LINE NUMBER
+Attribute_Definition:
+Each line flown in a mission is assigned a unique number. A flight line is defined as the time between activated recording and deactivated recording.
+Attribute_Definition_Source: Kucera International Inc.
+Attribute:
+Attribute_Label: TIME TAG
+Attribute_Definition:
+Each return is tagged with the current gps time in seconds of the week.
+Attribute_Definition_Source: Kucera International Inc.
+Overview_Description:
+Entity_and_Attribute_Overview: None
+Entity_and_Attribute_Detail_Citation: None
+Distribution_Information:
+Distributor:
+Contact_Information:
+Contact_Person_Primary:
+Contact_Person: Andy Goretti
+Contact_Organization: Mecklenburg County GIS - Mapping
+Contact_Position: Mapping Division Manager
+Contact_Address:
+Address_Type: mailing and physical
+Address: 700 N. Tryon Street
+City: Charlotte
+State_or_Province: NC
+Postal_Code: 28202
+Country: U.S.
+Contact_Voice_Telephone: 704.336.6192
+Contact_Facsimile_Telephone: 704.336.7333
+Contact_Electronic_Mail_Address: Andy.Goretti@MecklenburgCountyNC.Gov
+Hours_of_Service: 0800-1700 M-F EST
+Resource_Description:
+Mecklenburg County, NC bare earth LiDAR masspoints dataset (2007)
+Distribution_Liability:
+Mecklenburg County GIS provides the geographic data "as is". This organization makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Also, this organization makes no warranty, either expressed or implied, regarding the condition of the product or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these files have been processed successfully on computers at this organization, no warranty is made by this organization regarding the use of these data on any other system, nor does the fact of distribution constitute or imply such a warranty.
+Standard_Order_Process:
+Digital_Form:
+Digital_Transfer_Information:
+Format_Name: unknown
+Digital_Transfer_Option:
+Online_Option:
+Computer_Contact_Information:
+Network_Address:
+Network_Resource_Name: <http://emaps.charmeck.org>
+Offline_Option:
+Offline_Media: CD, DVD, USB Hard Drive, and FTP Download
+Recording_Capacity:
+Recording_Density: 0.7, 4.4
+Recording_Density_Units: GB
+Recording_Format: Unknown
+Fees: unknown
+Ordering_Instructions: Contact Mecklenburg County GIS, or visit the website
+Custom_Order_Process: Contact Mecklenburg County GIS, or visit the website
+Technical_Prerequisites: PC with CDROM or DVD drive
+Available_Time_Period:
+Time_Period_Information:
+Single_Date/Time:
+Calendar_Date: 200709
+Metadata_Reference_Information:
+Metadata_Date: 200710
+Metadata_Review_Date: 200710
+Metadata_Contact:
+Contact_Information:
+Contact_Person_Primary:
+Contact_Person: Andy Goretti
+Contact_Organization: Mecklenburg County GIS - Mapping
+Contact_Position: Mapping Division Manager
+Contact_Address:
+Address_Type: mailing and physical
+Address: 700 N. Tryon Street
+City: Charlotte
+State_or_Province: NC
+Postal_Code: 28202
+Country: U.S.
+Contact_Voice_Telephone: 704.336.6192
+Contact_Facsimile_Telephone: 704.336.7333
+Contact_Electronic_Mail_Address: Andy.Goretti@MecklenburgCountyNC.Gov
+Hours_of_Service: 0800-1700 M-F EST
+Metadata_Standard_Name: FGDC CSDGM
+Metadata_Standard_Version: FGDC-STD-001-1998
+Generated by mp version 2.9.1 on Wed Oct 03 07:52:47 2007

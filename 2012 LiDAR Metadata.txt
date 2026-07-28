@@ -1,0 +1,413 @@
+NC Mecklenburg 2012 LiDAR Project
+Type  TIFF
+
+Tags  Mecklenburg County, LiDAR, North Carolina, LiDAR Point Cloud, Current
+
+Summary
+Orthogonal image mosaic to support the needs of Mecklenburg, NC. Other uses expected.
+Description
+LiDAR data collection performed over Mecklenburg, NC in the Spring of 2012. Product generated include a LiDAR point cloud dataset.
+Credits
+There are no credits for this item.
+
+Use limitations
+Use of this data is constrained by the license agreements between Pictometry International and Mecklenburg, NC.
+Extent
+There is no extent for this item.
+
+Scale Range
+There is no scale range for this item.
+
+Topics and Keywords  ►
+Theme keywords LiDAR, LiDAR Point Cloud
+
+Thesaurus ►
+Title EDI Thesaurus
+
+Place keywords Mecklenburg County, North Carolina
+
+Thesaurus ►
+Title Geographic Names Index Service
+
+Temporal keywords Current
+
+Citation  ►
+Title NC Mecklenburg 2012 LiDAR Project
+Publication date 2011-12-14
+
+Citation Contacts  ►
+Responsible party - originator 
+Organization's name North Carolina
+
+Responsible party - originator 
+Organization's name Mecklenburg
+
+Resource Details  ►
+Dataset languages English
+
+Status completed
+
+Extents  ►
+Extent 
+Description 
+ground condition
+
+Temporal extent 
+Beginning date 2012-04-11
+Ending date 2012-04-14
+
+Resource Points of Contact  ►
+Point of contact - point of contact 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point 100 Town Centre Drive
+Delivery point Suite A
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Resource Maintenance  ►
+Resource maintenance 
+Update frequency unknown
+
+Resource Constraints  ►
+Legal constraints 
+Limitations of use 
+Distribution of this dataset is constrained by the existing license agreement between the Pictometry International Corp. and Mecklenburg, NC.
+
+Other constraints 
+Access to this data is constrained by the license agreements between Pictometry International and Mecklenburg, NC.
+
+Constraints 
+Limitations of use 
+Use of this data is constrained by the license agreements between Pictometry International and Mecklenburg, NC.
+
+Spatial Data Properties  ►
+ArcGIS Feature Class Properties ►
+Feature class name NCMECK12_Delivery_Area
+Feature type ⇔ Simple
+Geometry type ⇔ Polygon
+Has topology ⇔ FALSE
+Feature count ⇔ 1859
+Spatial index ⇔ FALSE
+Linear referencing ⇔ FALSE
+
+Data Quality  ►
+Scope of quality information ►
+Resource level dataset
+
+Data quality report - Conceptual consistency  ►
+Data quality measure reference
+Measure description 
+Dataset is LiDAR data. Logical consistency is not applicable.
+
+Data quality report - Completeness omission  ►
+Data quality measure reference
+Measure description 
+The 2012 Mecklenburg, NC LiDAR dataset associated with this metadata file completely covers the project-specified boundary with no data voids caused by acquisition or sensor issues.
+
+Lineage  ►
+Process step ►
+When the process occurred 
+Indeterminate date unknown
+Description 
+GPS/INS Processing: During the flight, GPS and INS data was logged on board the aircraft. Simultaneously, GPS data was logged by a stationary reference station on the ground. After completion of the flight, this data was post-processed using Applanix POSPac v4.4 to generate a smoothed best estimate trajectory (SBET).
+
+Process contact - processor 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point Suite A
+Delivery point 100 Town Centre Drive
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Process step ►
+When the process occurred 
+Indeterminate date unknown
+Description 
+Data Classification: A series of automated algorithms were applied using TerraSolid to classify ground points. The results of these algorithms were reviewed using models created in TerraModeler to ensure the quality of the classification results.
+
+Process contact - processor 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point 100 Town Centre Drive
+Delivery point Suite A
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Process step ►
+When the process occurred 
+Indeterminate date unknown
+Description 
+DashMap/TerraSolid: The raw laser range data was combined with the SBET to create the raw point cloud using Optech's DashMap software package. Once the LAS point cloud is created, TerraSolid's TerraMatch software is used to measure and apply small adjustments to the system's orientation angles in order to ensure proper alignment of data between flight lines.
+
+Process contact - processor 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point Suite A
+Delivery point 100 Town Centre Drive
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Process step ►
+When the process occurred 
+Indeterminate date unknown
+Description 
+Data Collection: Performed by Pictometry International's Optech ALTM Gemini 3100 LiDAR system. Data was collected at a nominal post spacing of 1 meter over an area of approximately 600 square miles covering Mecklenburg, NC. The data was acquired over 1 mission on April 11th, 2012, 2 missions on April 12th, 2012, 1 mission on April 13th, 2012, and 2 missions on April 14th, 2012.
+
+Process contact - processor 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point 100 Town Centre Drive
+Delivery point Suite A
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Source data ►
+Description 
+N/A
+
+Source medium name hard disk
+
+Source citation ►
+Title NC Mecklenburg 2012 LiDAR Project
+Alternate titles disc
+Publication date 2011-12-14
+
+Presentation formats digital map
+FGDC geospatial presentation format vector digital data
+
+Responsible party - originator 
+Organization's name Mecklenburg
+
+Responsible party - originator 
+Organization's name North Carolina
+
+Resource location online 
+Online location (URL) \\Polaris1\Lorna10\NCMECK12_Delivery_Area.shp
+
+Extent of the source data 
+Description 
+ground condition
+
+Temporal extent 
+Beginning date 2012-04-11
+Ending date 2012-04-14
+
+Distribution  ►
+Distributor ►
+Contact information - distributor 
+Individual's name Thom S. Salter
+Organization's name Pictometry International Corp.
+Contact's position Director, Photogrammetric Production
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point 100 Town Centre Drive
+Delivery point Suite A
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Available format 
+Name TIFF
+
+Ordering process 
+Terms and fees $TBD
+
+Transfer options 
+Medium of distribution 
+Medium name CD-ROM
+
+Recording density 1
+Density units of measure percent
+
+Transfer options 
+Online source 
+Online location (URL) \\Polaris1\Lorna10\NCMECK12_Delivery_Area.shp
+
+Fields  ►
+Details for object NCMECK12_Delivery_Area ►
+Type ⇔ Feature Class
+Row count ⇔ 1859
+Definition 
+NC Mecklenburg LiDAR Tiling Scheme
+
+Definition source 
+Pictometry International Corp.
+
+Field FID ►
+Alias ⇔ FID
+Data type ⇔ OID
+Width ⇔ 4
+Precision ⇔ 0
+Scale ⇔ 0
+
+Field description ⇔ 
+Internal feature number.
+
+Description source ⇔ 
+ESRI
+
+Description of values ⇔ 
+Sequential unique whole numbers that are automatically generated.
+
+Field Shape ►
+Alias ⇔ Shape
+Data type ⇔ Geometry
+Width ⇔ 0
+Precision ⇔ 0
+Scale ⇔ 0
+
+Field description ⇔ 
+Feature geometry.
+
+Description source ⇔ 
+ESRI
+
+Description of values ⇔ 
+Coordinates defining the features.
+
+Field TILELABEL ►
+Alias ⇔ TILELABEL
+Data type ⇔ String
+Width ⇔ 25
+
+Field description 
+Tile Label
+
+Description source 
+Pictometry International Corp.
+
+Description of values 
+Coordinates defining the features.
+
+References  ►
+Aggregate Information 
+Association type cross reference
+
+Aggregate resource name ►
+Title NC Mecklenburg 2012 LiDAR Project
+Publication date 2011-12-14
+
+Presentation formats digital map
+FGDC geospatial presentation format vector digital data
+
+Responsible party - originator 
+Organization's name North Carolina
+
+Responsible party - originator 
+Organization's name Mecklenburg
+
+Resource location online 
+Online location (URL) \\Polaris1\Lorna10\NCMECK12_Delivery_Area.shp
+
+Metadata Details  ►
+Metadata language English
+Metadata character set utf8 - 8 bit UCS Transfer Format
+
+Scope of the data described by the metadata dataset
+
+ArcGIS metadata properties
+Metadata format ArcGIS 1.0
+
+Created in ArcGIS for the item 2012-07-27 11:47:49
+Last modified in ArcGIS for the item 2012-08-13 10:58:31
+
+Automatic updates
+Have been performed Yes
+Last update 2012-07-27 14:45:40
+Metadata Contacts  ►
+Metadata contact - point of contact 
+Individual's name Katie Neal-Vacca
+Organization's name Pictometry International Corp.
+Contact's position Project Manager, Photogrammetric Products
+
+Contact information ►
+Phone 
+Voice 585-486-0093
+Fax 585-486-0098
+Address 
+Type both
+Delivery point 100 Town Centre Drive
+Delivery point Suite A
+City Rochester
+Administrative area New York
+Postal code 14623
+Country US
+Hours of service 
+0900-1700 EST
+
+Thumbnail and Enclosures  ►
+Enclosure 
+Enclosure type 
+File
+Description of enclosure original metadata
+Original metadata document, which was translated yes
+Source metadata format fgdc
